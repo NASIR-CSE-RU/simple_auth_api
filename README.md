@@ -17,9 +17,8 @@
 
 ### Generate client
 
-    ```sh
     php artisan passport:client --password
-    ```
+
 This will give you Client id , Client Secret.
 
    e.g What should we name the password grant client? [Laravel Password Grant Client]:
