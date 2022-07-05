@@ -43,8 +43,7 @@ class UserController extends Controller
      */
     public function store(UserRequest $userRequest)
     {
-        return $userRequest->all();
-        // return $this->userRepository->createUser($userRequest->validated());
+        return $this->userRepository->createUser($userRequest->validated());
     }
 
     /**
